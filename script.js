@@ -21,18 +21,18 @@ if (phone.startsWith('070') || phone.startsWith('080') || phone.startsWith('081'
     else{
         valid = "invalid"
     }
-//     mynumber.innerHTML = valid;
+    mynumber.innerHTML = valid;
 
-// let myAge = document.getElementById('age');
-// if (age >= 18){
-//     valid = age
-// }
-// else{
-//     valid = "you must be" + 18
-// }
-// myAge.innerHTML = valid;
+let myAge = document.getElementById('age');
+if (age >= 18){
+    valid = age
+}
+else{
+    valid = "you must be" + 18
+}
+myAge.innerHTML = valid;
 
-// let mail = document.getElementById('email');
-// mail.innerHTML = email;
+let mail = document.getElementById('email');
+mail.innerHTML = email;
 
-// })
+})
