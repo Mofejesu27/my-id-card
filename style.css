@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+}
+
+#registerform{
+    text-align: center;
+}
+
+input{
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+.display{
+    display: flex;
+    margin: 20px auto;
+    width: 450px;
+    padding: 20px;
+    background-color: lightpink;
+    box-shadow: 4px 4px 8px rosybrown;
+    border-radius: 20px;
+    
+}
+
+.passport{
+    padding: 20px;
+}
+
+.info{
+  padding: 20px;
+  line-height: 2;
+
+}

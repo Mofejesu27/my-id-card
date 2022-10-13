@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID CARD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <h2>ID CARD</h2>
+        <div class="form-display">
+            <form id="registerform">
+                <p>
+                    Name <br>
+                    <input type="text" name="name">
+                </p>
+
+                <p>
+                    Phone-Number <br>
+                    <input type="number" name="phone">
+                </p>
+
+                <p>
+                    Age <br>
+                    <input type="number" name="age">
+                </p>
+
+                <p>
+                    Email <br>
+                    <input type="email" name="mail">
+                </p>
+                <input type="submit" value="Register" id="submit">  
+            
+            </form>
+
+            <div class="display">
+                <div class="passport"><img src="my-passport.jpeg" alt="Mofe"></div>
+                <div class="info">
+                    <p><b>Name:</b> <span id="name"></span></p>
+                    <p><b>Phone-Number:</b> <span id="number"></span></p>
+                    <p><b>Age:</b> <span id="age"></span></p>
+                    <p><b>Email:</b> <span id="email"></span></p>
+                </div>
+           </div>
+
+
+        </div>
+
+        <script src="script.js"></script>
+            
+    </body>
+</html>
